@@ -3,4 +3,4 @@ const getProfile = async (req, res) => {
   res.json({ name, email });
 };
 
-module.export = getProfile;
+module.exports = { getProfile };
